@@ -9,4 +9,8 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="Models\Movies.cs" />
+  </ItemGroup>
+
 </Project>
