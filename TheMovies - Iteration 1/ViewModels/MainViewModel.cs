@@ -19,14 +19,12 @@ namespace TheMovies___Iteration_1.ViewModels
         public MainViewModel()
         {
 
-            MoviesVM = new ObservableCollection<Movie>();
+            moviesVm = new ObservableCollection<Movie>();
             List<Movie> movies = new();
 
-            foreach (Movie movie in movies)
-                MoviesVM.Add(movie);
-        }   
+        }
 
-        public ObservableCollection<Movie> MoviesVM
+        public ObservableCollection<Movie> moviesVm
         { get; set; }
 
         public event PropertyChangedEventHandler? PropertyChanged;
@@ -65,6 +63,15 @@ namespace TheMovies___Iteration_1.ViewModels
             };
 
 
+        }
+        public void UpdateVmList()
+        {
+            handler.UpdateMovieRepo();
+            List<Movie> moviesVmList = handler.GetMovies();
+            foreach (Movie movie in moviesVmList)
+            {
+                moviesVm.Add(movie);
+            }
         }
     }
 }

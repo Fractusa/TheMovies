@@ -24,5 +24,10 @@ namespace TheMovies___Iteration_1
         {
             InitializeComponent();
         }
+
+        private void UpdateListBtn_Click(object sender, RoutedEventArgs e)
+        {
+            mvm.UpdateVmList();
+        }
     }
 }
