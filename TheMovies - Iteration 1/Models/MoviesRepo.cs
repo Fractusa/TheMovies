@@ -11,7 +11,7 @@ namespace TheMovies___Iteration_1.Models
         public string movieTitle;
         public string movieGenre;
         public int movieLength;
-        private Movie movie;
+        //private Movie movie;
         public List<Movie> movies = new();
 
 
@@ -22,14 +22,14 @@ namespace TheMovies___Iteration_1.Models
 
         }
 
-        public void CheckMovieList()
-        {
-            foreach (Movie movie in movies)
-            {
-                Console.WriteLine(this.movie.MovieTitle);
-            }
+        //public void CheckMovieList()
+        //{
+        //    foreach (Movie movie in movies)
+        //    {
+        //        Console.WriteLine(this.movie.MovieTitle);
+        //    }
 
-        }
+        //}
 
     }
 }

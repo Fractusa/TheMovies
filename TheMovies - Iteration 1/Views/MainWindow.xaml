@@ -11,7 +11,7 @@
 
     <Grid>
         <Button x:Name="UpdateListBtn" Content="Update list" HorizontalAlignment="Left" Margin="67,87,0,0" VerticalAlignment="Top" Click="UpdateListBtn_Click"/>
-        <ListBox x:Name="lstMovies" ItemsSource="{Binding MoviesVM}" SelectedItem="{Binding SelectedMovie, Mode=TwoWay}" Margin="200,58,200,79">
+        <ListBox x:Name="lstMovies" ItemsSource="{Binding moviesVM}" SelectedItem="{Binding SelectedMovie, Mode=TwoWay}" Margin="200,58,200,79">
             <ListBox.ItemTemplate>
                 <DataTemplate>
                     <StackPanel Orientation="Horizontal">

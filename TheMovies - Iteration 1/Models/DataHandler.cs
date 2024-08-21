@@ -22,8 +22,13 @@ namespace TheMovies___Iteration_1.Models
             return movies;
         }
 
-        
-        
+        public void AddMovie(string movieTitle, string movieGenre, int movieLength)
+        {            
+            Movie currentMovie = new Movie(movieTitle, movieGenre, movieLength);
+
+            movies.Add(currentMovie);
+        }
+
         public void UpdateMovieRepo()
         {
             int duplicate = 0;

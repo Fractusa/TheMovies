@@ -69,6 +69,7 @@ namespace TheMovies___Iteration_1.ViewModels
                 MovieLength = 0
             };
 
+            handler.AddMovie("Skriv navn på film", "Skriv genre på film", 0);
             moviesVM.Add(newMovie);
             moviesRepo.movies.Add(newMovie);
 
@@ -77,6 +78,8 @@ namespace TheMovies___Iteration_1.ViewModels
 
         public void UpdateVMList()
         {
+            moviesVM.Clear();
+
             handler.UpdateMovieRepo();
             List<Movie> moviesVmList = handler.GetMovies();
             foreach (Movie movie in moviesVmList)
