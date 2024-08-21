@@ -5,11 +5,28 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TheMovies___Iteration_1"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="800"
+        Closing="Window_Closing"
+        >
+
     <Grid>
         <Button x:Name="UpdateListBtn" Content="Update list" HorizontalAlignment="Left" Margin="67,87,0,0" VerticalAlignment="Top" Click="UpdateListBtn_Click"/>
-        <ListBox d:ItemsSource="{Binding MoviesVm}" SelectedItem="{Binding SelectedMovie, Mode=TwoWay}" Margin="200,58,200,79"/>
+        <ListBox x:Name="lstMovies" ItemsSource="{Binding MoviesVM}" SelectedItem="{Binding SelectedMovie, Mode=TwoWay}" Margin="200,58,200,79">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <Label Content="{Binding MovieTitle}"/>
+                        <Label Content="{Binding MovieGenre}"/>
+                        <Label Content="{Binding MovieLength}"/>
+                    </StackPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
         <Label Content="Movie list" HorizontalAlignment="Left" Margin="200,27,0,0" VerticalAlignment="Top" Width="72"/>
-
+        <Button x:Name="LoadList" Content="Load List" HorizontalAlignment="Left" Margin="78,294,0,0" VerticalAlignment="Top" Click="LoadListBtn_Click"/>
+        <TextBox x:Name="txtMovieTitle" HorizontalAlignment="Left" Margin="152,370,0,0" TextWrapping="Wrap" Text="{Binding SelectedMovie.MovieTitle, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtMovieGenre" HorizontalAlignment="Left" Margin="299,370,0,0" TextWrapping="Wrap" Text="{Binding SelectedMovie.MovieGenre, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtMovieLength" HorizontalAlignment="Left" Margin="442,370,0,0" TextWrapping="Wrap" Text="{Binding SelectedMovie.MovieLength, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.466,-0.56"/>
+        <Button x:Name="btnCreateMovie" Content="Add Movie" HorizontalAlignment="Left" Margin="66,368,0,0" VerticalAlignment="Top" Click="btnCreateMovie_Click"/>
     </Grid>
 </Window>

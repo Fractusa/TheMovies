@@ -14,32 +14,37 @@ namespace TheMovies___Iteration_1.Models
 
         public void LoadMovieRegistry()
         {
-            movies = fileManager.ReadFromCSVFile("test.csv");
+            movies = fileManager.ReadFromCSVFile("test.txt");
         }
 
         public List<Movie> GetMovies()
         {
             return movies;
         }
-            
+
+        
         
         public void UpdateMovieRepo()
         {
             int duplicate = 0;
-
-                for(int i = 0; i <= moviesRepo.movies.Count; i++)
+                
+                if(moviesRepo.movies.Count != 0)
                 {
-                    
-
-                    if (moviesRepo.movies[i].MovieTitle == movies[i].MovieTitle)
+                    for (int i = 0; i <= moviesRepo.movies.Count; i++)
                     {
-                        //Found duplicate in the movie list, list already loaded
-                        duplicate++;
-                        break;
-                    }
 
+
+                        if (moviesRepo.movies[i].MovieTitle == movies[i].MovieTitle)
+                        {
+                            //Found duplicate in the movie list, list already loaded
+                            duplicate++;
+                            break;
+                        }
+
+                    }
                 }
-                //No duplicates found in list, list not loaded yet
+                
+                //No duplicates found in list, list not loaded yet. Therefor load the list.
                 if (duplicate == 0)
                 {
                     foreach (Movie movie in moviesRepo.movies)
@@ -50,9 +55,5 @@ namespace TheMovies___Iteration_1.Models
                     
             }
         }
-
-        
-
-
-    }
 }
+

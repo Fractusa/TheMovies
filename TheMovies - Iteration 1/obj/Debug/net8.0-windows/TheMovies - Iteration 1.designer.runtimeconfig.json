@@ -12,9 +12,11 @@
       }
     ],
     "additionalProbingPaths": [
-      "C:\\Users\\Mathias\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\Mathias\\.nuget\\packages",
-      "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      "C:\\Users\\ehris\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\ehris\\.nuget\\packages",
+      "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+      "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback",
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
     ],
     "configProperties": {
       "System.Runtime.Serialization.EnableUnsafeBinaryFormatterSerialization": true,

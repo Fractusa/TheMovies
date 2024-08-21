@@ -1,0 +1,21 @@
+G:\Program Files\School Git Files\TheMovies\TheMovies - Iteration 1\obj\Debug\net8.0-windows\Views\MainWindow.g.cs
+G:\Program Files\School Git Files\TheMovies\TheMovies - Iteration 1\obj\Debug\net8.0-windows\App.g.cs
+G:\Program Files\School Git Files\TheMovies\TheMovies - Iteration 1\obj\Debug\net8.0-windows\TheMovies - Iteration 1_MarkupCompile.cache
+G:\Program Files\School Git Files\TheMovies\TheMovies - Iteration 1\obj\Debug\net8.0-windows\TheMovies - Iteration 1_MarkupCompile.lref
+G:\Program Files\School Git Files\TheMovies\TheMovies - Iteration 1\bin\Debug\net8.0-windows\TheMovies - Iteration 1.exe
+G:\Program Files\School Git Files\TheMovies\TheMovies - Iteration 1\bin\Debug\net8.0-windows\TheMovies - Iteration 1.deps.json
+G:\Program Files\School Git Files\TheMovies\TheMovies - Iteration 1\bin\Debug\net8.0-windows\TheMovies - Iteration 1.runtimeconfig.json
+G:\Program Files\School Git Files\TheMovies\TheMovies - Iteration 1\bin\Debug\net8.0-windows\TheMovies - Iteration 1.dll
+G:\Program Files\School Git Files\TheMovies\TheMovies - Iteration 1\bin\Debug\net8.0-windows\TheMovies - Iteration 1.pdb
+G:\Program Files\School Git Files\TheMovies\TheMovies - Iteration 1\obj\Debug\net8.0-windows\Views\MainWindow.baml
+G:\Program Files\School Git Files\TheMovies\TheMovies - Iteration 1\obj\Debug\net8.0-windows\TheMovies - Iteration 1.g.resources
+G:\Program Files\School Git Files\TheMovies\TheMovies - Iteration 1\obj\Debug\net8.0-windows\TheMovies - Iteration 1.GeneratedMSBuildEditorConfig.editorconfig
+G:\Program Files\School Git Files\TheMovies\TheMovies - Iteration 1\obj\Debug\net8.0-windows\TheMovies - Iteration 1.AssemblyInfoInputs.cache
+G:\Program Files\School Git Files\TheMovies\TheMovies - Iteration 1\obj\Debug\net8.0-windows\TheMovies - Iteration 1.AssemblyInfo.cs
+G:\Program Files\School Git Files\TheMovies\TheMovies - Iteration 1\obj\Debug\net8.0-windows\TheMovies - Iteration 1.csproj.CoreCompileInputs.cache
+G:\Program Files\School Git Files\TheMovies\TheMovies - Iteration 1\obj\Debug\net8.0-windows\TheMovies - Iteration 1.sourcelink.json
+G:\Program Files\School Git Files\TheMovies\TheMovies - Iteration 1\obj\Debug\net8.0-windows\TheMovies - Iteration 1.dll
+G:\Program Files\School Git Files\TheMovies\TheMovies - Iteration 1\obj\Debug\net8.0-windows\refint\TheMovies - Iteration 1.dll
+G:\Program Files\School Git Files\TheMovies\TheMovies - Iteration 1\obj\Debug\net8.0-windows\TheMovies - Iteration 1.pdb
+G:\Program Files\School Git Files\TheMovies\TheMovies - Iteration 1\obj\Debug\net8.0-windows\TheMovies - Iteration 1.genruntimeconfig.cache
+G:\Program Files\School Git Files\TheMovies\TheMovies - Iteration 1\obj\Debug\net8.0-windows\ref\TheMovies - Iteration 1.dll

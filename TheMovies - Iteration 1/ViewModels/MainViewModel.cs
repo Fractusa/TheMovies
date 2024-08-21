@@ -15,16 +15,21 @@ namespace TheMovies___Iteration_1.ViewModels
         private Movie selectedMovie;
         public DataHandler handler = new();
         public FileManager fileManager = new();
+        public MoviesRepo moviesRepo = new();
 
         public MainViewModel()
         {
+            handler.LoadMovieRegistry();
+            moviesVM = new ObservableCollection<Movie>();
+            List<Movie> movies = handler.GetMovies();
 
-            moviesVm = new ObservableCollection<Movie>();
-            List<Movie> movies = new();
-
+            foreach (Movie movie in movies)
+            {
+                moviesVM.Add(movie);
+            }
         }
 
-        public ObservableCollection<Movie> moviesVm
+        public ObservableCollection<Movie> moviesVM
         { get; set; }
 
         public event PropertyChangedEventHandler? PropertyChanged;
@@ -49,7 +54,9 @@ namespace TheMovies___Iteration_1.ViewModels
         {
             if (SelectedMovie != null)
             {
-
+                moviesVM.Remove(SelectedMovie);
+                moviesRepo.movies.Remove(SelectedMovie);
+                SelectedMovie = null;
             }
         }
 
@@ -62,15 +69,19 @@ namespace TheMovies___Iteration_1.ViewModels
                 MovieLength = 0
             };
 
+            moviesVM.Add(newMovie);
+            moviesRepo.movies.Add(newMovie);
 
+            SelectedMovie = newMovie;
         }
-        public void UpdateVmList()
+
+        public void UpdateVMList()
         {
             handler.UpdateMovieRepo();
             List<Movie> moviesVmList = handler.GetMovies();
             foreach (Movie movie in moviesVmList)
             {
-                moviesVm.Add(movie);
+                moviesVM.Add(movie);
             }
         }
     }

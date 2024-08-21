@@ -10,6 +10,23 @@ namespace TheMovies___Iteration_1.Models
     public class FileManager
     {
         private string fileName;
+        //private DataHandler handler = new();
+
+        public string ConvertToString(Movie typeToConvert)
+        {
+            string convertMovieToString;
+
+            if (typeToConvert is Movie movie)
+            {
+                convertMovieToString = $"{movie.MovieTitle},{movie.MovieGenre},{movie.MovieLength}";
+            }
+            else
+            {
+                return convertMovieToString = "Conversion failed";
+            }
+
+            return convertMovieToString;
+        }
 
         public string FileName
         {  get { return fileName; } set { fileName = value; } }
@@ -20,7 +37,8 @@ namespace TheMovies___Iteration_1.Models
             {
                 foreach (Movie movie in moviesToWrite)
                 {
-                    sw.WriteLine(movie);
+                    string toWrite = ConvertToString(movie);
+                    sw.WriteLine(toWrite);
                 }
             }
         }
