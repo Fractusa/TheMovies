@@ -1,0 +1,47 @@
+﻿<Window x:Class="TheMovies___Iteration_1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TheMovies___Iteration_1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800"
+        Closing="Window_Closing"
+        >
+
+    <Grid>
+        <Button x:Name="UpdateListBtn" Content="Update list" HorizontalAlignment="Left" Margin="226,380,0,0" VerticalAlignment="Top" Click="UpdateListBtn_Click"/>
+        <ListBox x:Name="lstMovies" ItemsSource="{Binding moviesVM}" SelectedItem="{Binding SelectedMovie, Mode=TwoWay}" Margin="200,58,37,79">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <Label Content="{Binding MovieTitle}"/>
+                        <Label Content="{Binding MovieGenre}"/>
+                        <Label Content="{Binding MovieLength}"/>
+                        <Label Content="{Binding MovieDirector}"/>
+                        <Label Content="{Binding PremiereDate}"/>
+                        <Label Content="{Binding CinemaHall}"/>
+                    </StackPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+        <Label Content="Movie list" HorizontalAlignment="Left" Margin="200,27,0,0" VerticalAlignment="Top" Width="72"/>
+        <Button x:Name="LoadList" Content="Load List" HorizontalAlignment="Left" Margin="313,380,0,0" VerticalAlignment="Top" Click="LoadListBtn_Click"/>
+        <TextBox x:Name="txtMovieTitle" HorizontalAlignment="Left" Margin="27,84,0,0" TextWrapping="Wrap" Text="{Binding SelectedMovie.MovieTitle, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.517,-2.002"/>
+        <TextBox x:Name="txtMovieGenre" HorizontalAlignment="Left" Margin="28,133,0,0" TextWrapping="Wrap" Text="{Binding SelectedMovie.MovieGenre, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtMovieLength" HorizontalAlignment="Left" Margin="27,182,0,0" TextWrapping="Wrap" Text="{Binding SelectedMovie.MovieLength, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.466,-0.56"/>
+        <Button x:Name="btnCreateMovie" Content="Add Movie" HorizontalAlignment="Left" Margin="27,380,0,0" VerticalAlignment="Top" Click="btnCreateMovie_Click" RenderTransformOrigin="-2.213,-0.048"/>
+        <Label x:Name="lblMovieTitle" Content="Movie Title" HorizontalAlignment="Left" Margin="25,58,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.278,0.464"/>
+        <Label x:Name="lblMovieGenre" Content="Movie Genre" HorizontalAlignment="Left" Margin="28,107,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblMovieLength" Content="MovieLength" HorizontalAlignment="Left" Margin="27,156,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblMovieDirector" Content="Movie Director" HorizontalAlignment="Left" Margin="25,0,0,0" VerticalAlignment="Center"/>
+        <TextBox x:Name="txtMovieDirector" HorizontalAlignment="Left" Margin="27,230,0,0" TextWrapping="Wrap" Text="{Binding SelectedMovie.MovieDirector, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="lblMoviePremiere" Content="Movie Premiere" HorizontalAlignment="Left" Margin="25,264,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtMoviePremiere" HorizontalAlignment="Left" Margin="25,290,0,0" TextWrapping="Wrap" Text="{Binding SelectedMovie.PremiereDate, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="lblCinemaHall" Content="Cinema Hall" HorizontalAlignment="Left" Margin="27,313,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtCinemaHall" HorizontalAlignment="Left" Margin="25,337,0,0" TextWrapping="Wrap" Text="{Binding SelectedMovie.CinemaHall, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="btnDeleteMovie" Content="Delete Movie" HorizontalAlignment="Left" Margin="109,380,0,0" VerticalAlignment="Top" Click="btnDeleteMovie_Click"/>
+        <Button x:Name="btnCinemaProgram" Content="Open Cinema Program" HorizontalAlignment="Left" Margin="638,380,0,0" VerticalAlignment="Top" Click="btnCinemaProgram_Click"/>
+
+    </Grid>
+</Window>
