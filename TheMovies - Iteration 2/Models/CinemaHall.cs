@@ -48,11 +48,11 @@ namespace TheMovies___Iteration_1.Models
 
         public void AddMovieToSchedule(Movie addedMovie)
         {
-            if((Playtime + 30) >= addedMovie.MovieLength)
-            {
+            //if((Playtime + 30) >= addedMovie.MovieLength)
+            //{
                 playtime = -(addedMovie.MovieLength + 30);
                 scheduledMovies.Add(addedMovie);
-            }
+            //}
         }
 
     }

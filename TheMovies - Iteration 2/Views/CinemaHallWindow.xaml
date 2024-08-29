@@ -3,13 +3,52 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:TheMovies___Iteration_1.Views"
+        xmlns:local="clr-namespace:TheMovies___Iteration_1.Views" xmlns:viewmodels="clr-namespace:TheMovies___Iteration_1.ViewModels" d:DataContext="{d:DesignInstance Type=viewmodels:MainViewModel}"
         mc:Ignorable="d"
-        Title="CinemaHallWindow" Height="450" Width="800">
+        Title="CinemaHallWindow" Height="450" Width="800"
+        Closing="Window_Closing">
     <Grid>
-        <ListBox x:Name="lstCinemaHalls" ItemsSource="{Binding cinemaHallsVM}" SelectedItem="{Binding SelectedMovie, Mode=TwoWay}" HorizontalAlignment="Left" Height="333" Margin="136,54,0,0" VerticalAlignment="Top" Width="221" RenderTransformOrigin="0.374,0.495"/>
-        <ListBox x:Name="lstMovieSchedule" ItemsSource="{Binding movieScheduleVM}" SelectedItem="{Binding SelectedMovie, Mode=TwoWay}" HorizontalAlignment="Left" Height="333" Margin="376,54,0,0" VerticalAlignment="Top" Width="231"/>
-        <ListBox x:Name="lstMoviesToAdd" ItemsSource="{Binding moviesVM}" SelectedItem="{Binding SelectedMovie, Mode=TwoWay}" HorizontalAlignment="Left" Height="253" Margin="635,134,0,0" VerticalAlignment="Top" Width="137"/>
+        <ListBox x:Name="lstCinemaHalls" ItemsSource="{Binding cinemaHallsVM}" SelectedItem="{Binding SelectedCinemaHall, Mode=TwoWay}" HorizontalAlignment="Left" Height="333" Margin="136,54,0,0" VerticalAlignment="Top" Width="221" RenderTransformOrigin="0.374,0.495">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <Label Content="{Binding CinemaHallNumber}"/>
+                        <Label Content="{Binding Playtime}"/>
+                        <Label Content="{Binding DateStart}"/>
+                        <Label Content="{Binding DateEnd}"/>
+                    </StackPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+            </ListBox>
+
+        <ListBox x:Name="lstMovieSchedule" ItemsSource="{Binding SelectedCinemaHall.scheduledMovies}" SelectedItem="{Binding SelectedMovie, Mode=TwoWay}" HorizontalAlignment="Left" Height="333" Margin="376,54,0,0" VerticalAlignment="Top" Width="231">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <Label Content="{Binding SelectedCinemaHall.CinemaHallNumber}"/>
+                        <Label Content="{Binding SelectedCinemaHall.Playtime}"/>
+                        <Label Content="{Binding SelectedCinemaHall.DateStart}"/>
+                        <Label Content="{Binding SelectedCinemaHall.DateEnd}"/>
+                    </StackPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+        <ListBox x:Name="lstMoviesToAdd" ItemsSource="{Binding moviesVM}" SelectedItem="{Binding SelectedMovie, Mode=TwoWay}" HorizontalAlignment="Left" Height="253" Margin="635,134,0,0" VerticalAlignment="Top" Width="137">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <Label Content="{Binding MovieTitle}"/>
+                        <Label Content="{Binding MovieGenre}"/>
+                        <Label Content="{Binding MovieLength}"/>
+                        <Label Content="{Binding MovieDirector}"/>
+                        <Label Content="{Binding PremiereDate}"/>
+                        <Label Content="{Binding CinemaHall}"/>
+                    </StackPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+
+
         <Button x:Name="addCinemaHall" Content="Add CinemaHall" HorizontalAlignment="Left" Height="18" Margin="16,81,0,0" VerticalAlignment="Top" Width="106" Click="AddCinemaHallButton_Click"/>
         <Button x:Name="addMovieToSchedule" Content="Add to schedule" HorizontalAlignment="Left" Height="20" Margin="656,81,0,0" VerticalAlignment="Top" Width="96" RenderTransformOrigin="1.103,1.78" Click="addMovieToSchedule_Click"/>
         <TextBox x:Name="playtime" HorizontalAlignment="Left" Height="22" Margin="70,144,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="34" RenderTransformOrigin="0.443,-0.188"/>

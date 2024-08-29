@@ -13,6 +13,7 @@ namespace TheMovies___Iteration_1.ViewModels
     public class MainViewModel : INotifyPropertyChanged
     {
         private Movie selectedMovie;
+        private CinemaHall selectedCinemaHall;
         public DataHandler handler = new();
         public FileManager fileManager = new();
         public MoviesRepo moviesRepo = new();
@@ -21,6 +22,7 @@ namespace TheMovies___Iteration_1.ViewModels
         {
             handler.LoadMovieRegistry();
             moviesVM = new ObservableCollection<Movie>();
+            cinemaHallsVM = new ObservableCollection<CinemaHall>();
             List<Movie> movies = handler.GetMovies();
             List<CinemaHall> cinemaHalls = handler.GetCinemaHalls();
 
@@ -51,6 +53,16 @@ namespace TheMovies___Iteration_1.ViewModels
             set
             {
                 selectedMovie = value;
+                OnPropertyChanged(nameof(SelectedMovie));
+            }
+        }
+        public CinemaHall SelectedCinemaHall
+        {
+            get { return selectedCinemaHall; }
+
+            set
+            {
+                selectedCinemaHall = value;
                 OnPropertyChanged(nameof(SelectedMovie));
             }
         }
@@ -89,7 +101,7 @@ namespace TheMovies___Iteration_1.ViewModels
             CinemaHall newCinemaHall = new CinemaHall
             {
                 CinemaHallNumber = 1,
-                Playtime = 15,
+                Playtime = 100,
                 DateStart = DateOnly.MinValue,
                 DateEnd = DateOnly.MaxValue,
             };
@@ -102,12 +114,20 @@ namespace TheMovies___Iteration_1.ViewModels
         public void UpdateVMList()
         {
             moviesVM.Clear();
+            cinemaHallsVM.Clear();
+            
 
             handler.UpdateMovieRepo();
             List<Movie> moviesVmList = handler.GetMovies();
+            List<CinemaHall> cinemaHalls = handler.GetCinemaHalls();
+
             foreach (Movie movie in moviesVmList)
             {
                 moviesVM.Add(movie);
+            }
+            foreach (CinemaHall cinemaHall in cinemaHalls)
+            {
+                cinemaHallsVM.Add(cinemaHall);
             }
         }
     }

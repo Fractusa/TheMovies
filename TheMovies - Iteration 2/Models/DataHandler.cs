@@ -12,6 +12,7 @@ namespace TheMovies___Iteration_1.Models
         public MoviesRepo moviesRepo = new();
         public List<Movie> movies = new();
         public List<CinemaHall> cinemaHalls = new();
+        public CinemaHall cinemaHall = new();
 
         public void LoadMovieRegistry()
         {

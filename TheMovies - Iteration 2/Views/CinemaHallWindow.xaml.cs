@@ -34,6 +34,7 @@ namespace TheMovies___Iteration_1.Views
        
         private void AddCinemaHallButton_Click(object sender, RoutedEventArgs e)
         {
+            mvm.AddNewCinemaHall();
 
         }
 
@@ -49,7 +50,7 @@ namespace TheMovies___Iteration_1.Views
 
         private void addMovieToSchedule_Click(object sender, RoutedEventArgs e)
         {
-
+            mvm.handler.cinemaHall.AddMovieToSchedule(mvm.SelectedMovie);
         }
     }
 }
