@@ -13,6 +13,7 @@ using TheMovies___Iteration_1.Models;
 
 //using TheMovies___Iteration_1.Models;
 using TheMovies___Iteration_1.ViewModels;
+using TheMovies___Iteration_1.Views;
 
 namespace TheMovies___Iteration_1
 {
@@ -65,6 +66,8 @@ namespace TheMovies___Iteration_1
 
         private void btnCinemaProgram_Click(object sender, RoutedEventArgs e)
         {
+            CinemaHallWindow cinemaHallWindow = new CinemaHallWindow();
+            cinemaHallWindow.Show();
 
         }
     }

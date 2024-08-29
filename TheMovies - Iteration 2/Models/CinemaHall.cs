@@ -9,7 +9,7 @@ namespace TheMovies___Iteration_1.Models
     public class CinemaHall
     {
         private int cinemaHallNumber;
-        private int playTime;
+        private int playtime;
         private DateOnly dateStart;
         private DateOnly dateEnd;
         private Movie movie = new Movie();
@@ -18,7 +18,7 @@ namespace TheMovies___Iteration_1.Models
         public int CinemaHallNumber
         { get; set; }
 
-        public int PlayTime
+        public int Playtime
         { get; set; }
 
         public DateOnly DateStart
@@ -27,21 +27,33 @@ namespace TheMovies___Iteration_1.Models
         public DateOnly DateEnd
         { get; set; }
 
-        public CinemaHall(int cinemaHallNumber, int playTime, DateOnly dateStart, DateOnly dateEnd)
+        public CinemaHall(int cinemaHallNumber, int playtime, DateOnly dateStart, DateOnly dateEnd)
         {
             this.cinemaHallNumber = cinemaHallNumber;
-            this.playTime = playTime;
+            this.playtime = playtime;
             this.dateStart = dateStart;
             this.dateEnd = dateEnd;
+        }
+        public CinemaHall(CinemaHall currentCinemaHall)
+        {
+            this.cinemaHallNumber = currentCinemaHall.cinemaHallNumber;
+            this.playtime = currentCinemaHall.playtime;
+            this.dateStart = currentCinemaHall.dateStart;
+            this.dateEnd = currentCinemaHall.dateEnd;
+        }
+        public CinemaHall()
+        {
+
         }
 
         public void AddMovieToSchedule(Movie addedMovie)
         {
-            if((PlayTime + 30) >= addedMovie.MovieLength)
+            if((Playtime + 30) >= addedMovie.MovieLength)
             {
-                playTime = -(addedMovie.MovieLength + 30);
+                playtime = -(addedMovie.MovieLength + 30);
                 scheduledMovies.Add(addedMovie);
             }
         }
+
     }
 }

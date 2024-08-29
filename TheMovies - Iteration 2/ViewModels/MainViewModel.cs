@@ -22,6 +22,7 @@ namespace TheMovies___Iteration_1.ViewModels
             handler.LoadMovieRegistry();
             moviesVM = new ObservableCollection<Movie>();
             List<Movie> movies = handler.GetMovies();
+            List<CinemaHall> cinemaHalls = handler.GetCinemaHalls();
 
             foreach (Movie movie in movies)
             {
@@ -30,6 +31,10 @@ namespace TheMovies___Iteration_1.ViewModels
         }
 
         public ObservableCollection<Movie> moviesVM
+        { get; set; }
+        public ObservableCollection<CinemaHall> cinemaHallsVM
+        { get; set; }
+        public ObservableCollection<Movie> movieScheduleVM
         { get; set; }
 
         public event PropertyChangedEventHandler? PropertyChanged;
@@ -79,6 +84,21 @@ namespace TheMovies___Iteration_1.ViewModels
             SelectedMovie = newMovie;
         }
 
+        public void AddNewCinemaHall()
+        {
+            CinemaHall newCinemaHall = new CinemaHall
+            {
+                CinemaHallNumber = 1,
+                Playtime = 15,
+                DateStart = DateOnly.MinValue,
+                DateEnd = DateOnly.MaxValue,
+            };
+
+            handler.CreateCinemaHall(newCinemaHall);
+            cinemaHallsVM.Add(newCinemaHall);
+
+
+        }
         public void UpdateVMList()
         {
             moviesVM.Clear();

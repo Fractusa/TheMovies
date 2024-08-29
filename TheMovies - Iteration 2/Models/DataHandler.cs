@@ -22,6 +22,10 @@ namespace TheMovies___Iteration_1.Models
         {
             return movies;
         }
+        public List<CinemaHall> GetCinemaHalls()
+        {
+            return cinemaHalls;
+        }
 
         public void AddMovie(string movieTitle, string movieGenre, int movieLength)
         {            
@@ -41,6 +45,12 @@ namespace TheMovies___Iteration_1.Models
         {
 
             CinemaHall currentCinemaHall = new CinemaHall(cinemaHallNumber, playTime, dateStart, dateEnd);
+            cinemaHalls.Add(currentCinemaHall);
+        }
+        public void CreateCinemaHall(CinemaHall currentCinemaHall)
+        {
+
+            currentCinemaHall = new CinemaHall(currentCinemaHall);
             cinemaHalls.Add(currentCinemaHall);
         }
 

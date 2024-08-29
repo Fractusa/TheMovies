@@ -1,38 +1,42 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "G:\\Program Files\\School Git Files\\TheMovies\\TheMovies - Iteration 2\\",
+  "WorkspaceRootPath": "D:\\UCL\\1. projekt 2. semester\\TheMovies\\TheMovies - Iteration 2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1BE6C56A-9192-4074-A518-64019AE722BC}|TheMovies - Iteration 1.csproj|g:\\program files\\school git files\\themovies\\themovies - iteration 2\\models\\datahandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1BE6C56A-9192-4074-A518-64019AE722BC}|TheMovies - Iteration 1.csproj|solutionrelative:models\\datahandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1BE6C56A-9192-4074-A518-64019AE722BC}|TheMovies - Iteration 1.csproj|g:\\program files\\school git files\\themovies\\themovies - iteration 2\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1BE6C56A-9192-4074-A518-64019AE722BC}|TheMovies - Iteration 1.csproj|solutionrelative:views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1BE6C56A-9192-4074-A518-64019AE722BC}|TheMovies - Iteration 1.csproj|g:\\program files\\school git files\\themovies\\themovies - iteration 2\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{1BE6C56A-9192-4074-A518-64019AE722BC}|TheMovies - Iteration 1.csproj|solutionrelative:views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1BE6C56A-9192-4074-A518-64019AE722BC}|TheMovies - Iteration 1.csproj|g:\\program files\\school git files\\themovies\\themovies - iteration 2\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1BE6C56A-9192-4074-A518-64019AE722BC}|TheMovies - Iteration 1.csproj|solutionrelative:models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1BE6C56A-9192-4074-A518-64019AE722BC}|TheMovies - Iteration 1.csproj|g:\\program files\\school git files\\themovies\\themovies - iteration 2\\models\\cinemahall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1BE6C56A-9192-4074-A518-64019AE722BC}|TheMovies - Iteration 1.csproj|solutionrelative:models\\cinemahall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1BE6C56A-9192-4074-A518-64019AE722BC}|TheMovies - Iteration 1.csproj|g:\\program files\\school git files\\themovies\\themovies - iteration 2\\models\\filemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1BE6C56A-9192-4074-A518-64019AE722BC}|TheMovies - Iteration 1.csproj|solutionrelative:models\\filemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1BE6C56A-9192-4074-A518-64019AE722BC}|TheMovies - Iteration 1.csproj|g:\\program files\\school git files\\themovies\\themovies - iteration 2\\models\\moviesrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1BE6C56A-9192-4074-A518-64019AE722BC}|TheMovies - Iteration 1.csproj|d:\\ucl\\1. projekt 2. semester\\themovies\\themovies - iteration 2\\models\\moviesrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1BE6C56A-9192-4074-A518-64019AE722BC}|TheMovies - Iteration 1.csproj|solutionrelative:models\\moviesrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1BE6C56A-9192-4074-A518-64019AE722BC}|TheMovies - Iteration 1.csproj|g:\\program files\\school git files\\themovies\\themovies - iteration 2\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1BE6C56A-9192-4074-A518-64019AE722BC}|TheMovies - Iteration 1.csproj|d:\\ucl\\1. projekt 2. semester\\themovies\\themovies - iteration 2\\views\\cinemahallwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1BE6C56A-9192-4074-A518-64019AE722BC}|TheMovies - Iteration 1.csproj|solutionrelative:views\\cinemahallwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BE6C56A-9192-4074-A518-64019AE722BC}|TheMovies - Iteration 1.csproj|d:\\ucl\\1. projekt 2. semester\\themovies\\themovies - iteration 2\\views\\cinemahallwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BE6C56A-9192-4074-A518-64019AE722BC}|TheMovies - Iteration 1.csproj|solutionrelative:views\\cinemahallwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BE6C56A-9192-4074-A518-64019AE722BC}|TheMovies - Iteration 1.csproj|d:\\ucl\\1. projekt 2. semester\\themovies\\themovies - iteration 2\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1BE6C56A-9192-4074-A518-64019AE722BC}|TheMovies - Iteration 1.csproj|solutionrelative:viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BE6C56A-9192-4074-A518-64019AE722BC}|TheMovies - Iteration 1.csproj|d:\\ucl\\1. projekt 2. semester\\themovies\\themovies - iteration 2\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1BE6C56A-9192-4074-A518-64019AE722BC}|TheMovies - Iteration 1.csproj|solutionrelative:views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BE6C56A-9192-4074-A518-64019AE722BC}|TheMovies - Iteration 1.csproj|d:\\ucl\\1. projekt 2. semester\\themovies\\themovies - iteration 2\\models\\datahandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BE6C56A-9192-4074-A518-64019AE722BC}|TheMovies - Iteration 1.csproj|solutionrelative:models\\datahandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BE6C56A-9192-4074-A518-64019AE722BC}|TheMovies - Iteration 1.csproj|d:\\ucl\\1. projekt 2. semester\\themovies\\themovies - iteration 2\\models\\cinemahall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BE6C56A-9192-4074-A518-64019AE722BC}|TheMovies - Iteration 1.csproj|solutionrelative:models\\cinemahall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BE6C56A-9192-4074-A518-64019AE722BC}|TheMovies - Iteration 1.csproj|d:\\ucl\\1. projekt 2. semester\\themovies\\themovies - iteration 2\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BE6C56A-9192-4074-A518-64019AE722BC}|TheMovies - Iteration 1.csproj|solutionrelative:models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BE6C56A-9192-4074-A518-64019AE722BC}|TheMovies - Iteration 1.csproj|d:\\ucl\\1. projekt 2. semester\\themovies\\themovies - iteration 2\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BE6C56A-9192-4074-A518-64019AE722BC}|TheMovies - Iteration 1.csproj|solutionrelative:views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,122 +46,129 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "DataHandler.cs",
-              "DocumentMoniker": "G:\\Program Files\\School Git Files\\TheMovies\\TheMovies - Iteration 2\\Models\\DataHandler.cs",
-              "RelativeDocumentMoniker": "Models\\DataHandler.cs",
-              "ToolTip": "G:\\Program Files\\School Git Files\\TheMovies\\TheMovies - Iteration 2\\Models\\DataHandler.cs",
-              "RelativeToolTip": "Models\\DataHandler.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAmwC0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "OverriddenGroupName": "Models",
-              "WhenOpened": "2024-08-16T17:09:20.885Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CinemaHall.cs",
-              "DocumentMoniker": "G:\\Program Files\\School Git Files\\TheMovies\\TheMovies - Iteration 2\\Models\\CinemaHall.cs",
-              "RelativeDocumentMoniker": "Models\\CinemaHall.cs",
-              "ToolTip": "G:\\Program Files\\School Git Files\\TheMovies\\TheMovies - Iteration 2\\Models\\CinemaHall.cs",
-              "RelativeToolTip": "Models\\CinemaHall.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAgwC0AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-28T22:44:03.991Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Movie.cs",
-              "DocumentMoniker": "G:\\Program Files\\School Git Files\\TheMovies\\TheMovies - Iteration 2\\Models\\Movie.cs",
-              "RelativeDocumentMoniker": "Models\\Movie.cs",
-              "ToolTip": "G:\\Program Files\\School Git Files\\TheMovies\\TheMovies - Iteration 2\\Models\\Movie.cs",
-              "RelativeToolTip": "Models\\Movie.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-16T18:07:48.808Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "G:\\Program Files\\School Git Files\\TheMovies\\TheMovies - Iteration 2\\Views\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "Views\\MainWindow.xaml",
-              "ToolTip": "Views/MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "OverriddenGroupName": "Views",
-              "OverriddenToolTip": "Views/MainWindow.xaml",
-              "WhenOpened": "2024-08-19T15:22:10.705Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "G:\\Program Files\\School Git Files\\TheMovies\\TheMovies - Iteration 2\\Views\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "Views\\MainWindow.xaml.cs",
-              "ToolTip": "G:\\Program Files\\School Git Files\\TheMovies\\TheMovies - Iteration 2\\Views\\MainWindow.xaml.cs",
-              "RelativeToolTip": "Views\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAEMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "OverriddenGroupName": "Views",
-              "WhenOpened": "2024-08-16T17:00:27.657Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "MoviesRepo.cs",
-              "DocumentMoniker": "G:\\Program Files\\School Git Files\\TheMovies\\TheMovies - Iteration 2\\Models\\MoviesRepo.cs",
+              "DocumentMoniker": "D:\\UCL\\1. projekt 2. semester\\TheMovies\\TheMovies - Iteration 2\\Models\\MoviesRepo.cs",
               "RelativeDocumentMoniker": "Models\\MoviesRepo.cs",
-              "ToolTip": "G:\\Program Files\\School Git Files\\TheMovies\\TheMovies - Iteration 2\\Models\\MoviesRepo.cs",
+              "ToolTip": "D:\\UCL\\1. projekt 2. semester\\TheMovies\\TheMovies - Iteration 2\\Models\\MoviesRepo.cs",
               "RelativeToolTip": "Models\\MoviesRepo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-16T17:17:06.624Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "FileManager.cs",
-              "DocumentMoniker": "G:\\Program Files\\School Git Files\\TheMovies\\TheMovies - Iteration 2\\Models\\FileManager.cs",
-              "RelativeDocumentMoniker": "Models\\FileManager.cs",
-              "ToolTip": "G:\\Program Files\\School Git Files\\TheMovies\\TheMovies - Iteration 2\\Models\\FileManager.cs",
-              "RelativeToolTip": "Models\\FileManager.cs",
-              "ViewState": "AgIAAEcAAAAAAAAAAAAwwGYAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "OverriddenGroupName": "Models",
-              "WhenOpened": "2024-08-16T17:09:52.149Z",
+              "WhenOpened": "2024-08-29T06:09:54.341Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "Movie.cs",
+              "DocumentMoniker": "D:\\UCL\\1. projekt 2. semester\\TheMovies\\TheMovies - Iteration 2\\Models\\Movie.cs",
+              "RelativeDocumentMoniker": "Models\\Movie.cs",
+              "ToolTip": "D:\\UCL\\1. projekt 2. semester\\TheMovies\\TheMovies - Iteration 2\\Models\\Movie.cs",
+              "RelativeToolTip": "Models\\Movie.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAuwDgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T06:09:51.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CinemaHall.cs",
+              "DocumentMoniker": "D:\\UCL\\1. projekt 2. semester\\TheMovies\\TheMovies - Iteration 2\\Models\\CinemaHall.cs",
+              "RelativeDocumentMoniker": "Models\\CinemaHall.cs",
+              "ToolTip": "D:\\UCL\\1. projekt 2. semester\\TheMovies\\TheMovies - Iteration 2\\Models\\CinemaHall.cs",
+              "RelativeToolTip": "Models\\CinemaHall.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAA8wC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T06:04:34.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DataHandler.cs",
+              "DocumentMoniker": "D:\\UCL\\1. projekt 2. semester\\TheMovies\\TheMovies - Iteration 2\\Models\\DataHandler.cs",
+              "RelativeDocumentMoniker": "Models\\DataHandler.cs",
+              "ToolTip": "D:\\UCL\\1. projekt 2. semester\\TheMovies\\TheMovies - Iteration 2\\Models\\DataHandler.cs",
+              "RelativeToolTip": "Models\\DataHandler.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAcwDEAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T06:03:57.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\UCL\\1. projekt 2. semester\\TheMovies\\TheMovies - Iteration 2\\Views\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Views\\MainWindow.xaml",
+              "ToolTip": "D:\\UCL\\1. projekt 2. semester\\TheMovies\\TheMovies - Iteration 2\\Views\\MainWindow.xaml",
+              "RelativeToolTip": "Views\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-29T05:38:10.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "MainViewModel.cs",
-              "DocumentMoniker": "G:\\Program Files\\School Git Files\\TheMovies\\TheMovies - Iteration 2\\ViewModels\\MainViewModel.cs",
+              "DocumentMoniker": "D:\\UCL\\1. projekt 2. semester\\TheMovies\\TheMovies - Iteration 2\\ViewModels\\MainViewModel.cs",
               "RelativeDocumentMoniker": "ViewModels\\MainViewModel.cs",
-              "ToolTip": "G:\\Program Files\\School Git Files\\TheMovies\\TheMovies - Iteration 2\\ViewModels\\MainViewModel.cs",
+              "ToolTip": "D:\\UCL\\1. projekt 2. semester\\TheMovies\\TheMovies - Iteration 2\\ViewModels\\MainViewModel.cs",
               "RelativeToolTip": "ViewModels\\MainViewModel.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAQwD0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAuwFgAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-16T17:10:27.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CinemaHallWindow.xaml",
+              "DocumentMoniker": "D:\\UCL\\1. projekt 2. semester\\TheMovies\\TheMovies - Iteration 2\\Views\\CinemaHallWindow.xaml",
+              "RelativeDocumentMoniker": "Views\\CinemaHallWindow.xaml",
+              "ToolTip": "D:\\UCL\\1. projekt 2. semester\\TheMovies\\TheMovies - Iteration 2\\Views\\CinemaHallWindow.xaml",
+              "RelativeToolTip": "Views\\CinemaHallWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-29T05:12:23.883Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CinemaHallWindow.xaml.cs",
+              "DocumentMoniker": "D:\\UCL\\1. projekt 2. semester\\TheMovies\\TheMovies - Iteration 2\\Views\\CinemaHallWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\CinemaHallWindow.xaml.cs",
+              "ToolTip": "D:\\UCL\\1. projekt 2. semester\\TheMovies\\TheMovies - Iteration 2\\Views\\CinemaHallWindow.xaml.cs",
+              "RelativeToolTip": "Views\\CinemaHallWindow.xaml.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAApwCIAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T05:12:47.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\UCL\\1. projekt 2. semester\\TheMovies\\TheMovies - Iteration 2\\Views\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\UCL\\1. projekt 2. semester\\TheMovies\\TheMovies - Iteration 2\\Views\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Views\\MainWindow.xaml.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAQwEUAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T05:49:41.08Z",
               "EditorCaption": ""
             }
           ]

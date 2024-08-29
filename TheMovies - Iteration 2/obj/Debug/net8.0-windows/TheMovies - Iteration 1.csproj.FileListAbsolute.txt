@@ -40,3 +40,26 @@ G:\Program Files\School Git Files\TheMovies\TheMovies - Iteration 2\obj\Debug\ne
 G:\Program Files\School Git Files\TheMovies\TheMovies - Iteration 2\obj\Debug\net8.0-windows\TheMovies - Iteration 1.pdb
 G:\Program Files\School Git Files\TheMovies\TheMovies - Iteration 2\obj\Debug\net8.0-windows\TheMovies - Iteration 1.genruntimeconfig.cache
 G:\Program Files\School Git Files\TheMovies\TheMovies - Iteration 2\obj\Debug\net8.0-windows\ref\TheMovies - Iteration 1.dll
+D:\UCL\1. projekt 2. semester\TheMovies\TheMovies - Iteration 2\bin\Debug\net8.0-windows\TheMovies - Iteration 1.exe
+D:\UCL\1. projekt 2. semester\TheMovies\TheMovies - Iteration 2\bin\Debug\net8.0-windows\TheMovies - Iteration 1.deps.json
+D:\UCL\1. projekt 2. semester\TheMovies\TheMovies - Iteration 2\bin\Debug\net8.0-windows\TheMovies - Iteration 1.runtimeconfig.json
+D:\UCL\1. projekt 2. semester\TheMovies\TheMovies - Iteration 2\bin\Debug\net8.0-windows\TheMovies - Iteration 1.dll
+D:\UCL\1. projekt 2. semester\TheMovies\TheMovies - Iteration 2\bin\Debug\net8.0-windows\TheMovies - Iteration 1.pdb
+D:\UCL\1. projekt 2. semester\TheMovies\TheMovies - Iteration 2\obj\Debug\net8.0-windows\Views\CinemaHallWindow.g.cs
+D:\UCL\1. projekt 2. semester\TheMovies\TheMovies - Iteration 2\obj\Debug\net8.0-windows\Views\MainWindow.g.cs
+D:\UCL\1. projekt 2. semester\TheMovies\TheMovies - Iteration 2\obj\Debug\net8.0-windows\App.g.cs
+D:\UCL\1. projekt 2. semester\TheMovies\TheMovies - Iteration 2\obj\Debug\net8.0-windows\TheMovies - Iteration 1_MarkupCompile.cache
+D:\UCL\1. projekt 2. semester\TheMovies\TheMovies - Iteration 2\obj\Debug\net8.0-windows\TheMovies - Iteration 1_MarkupCompile.lref
+D:\UCL\1. projekt 2. semester\TheMovies\TheMovies - Iteration 2\obj\Debug\net8.0-windows\Views\CinemaHallWindow.baml
+D:\UCL\1. projekt 2. semester\TheMovies\TheMovies - Iteration 2\obj\Debug\net8.0-windows\Views\MainWindow.baml
+D:\UCL\1. projekt 2. semester\TheMovies\TheMovies - Iteration 2\obj\Debug\net8.0-windows\TheMovies - Iteration 1.g.resources
+D:\UCL\1. projekt 2. semester\TheMovies\TheMovies - Iteration 2\obj\Debug\net8.0-windows\TheMovies - Iteration 1.GeneratedMSBuildEditorConfig.editorconfig
+D:\UCL\1. projekt 2. semester\TheMovies\TheMovies - Iteration 2\obj\Debug\net8.0-windows\TheMovies - Iteration 1.AssemblyInfoInputs.cache
+D:\UCL\1. projekt 2. semester\TheMovies\TheMovies - Iteration 2\obj\Debug\net8.0-windows\TheMovies - Iteration 1.AssemblyInfo.cs
+D:\UCL\1. projekt 2. semester\TheMovies\TheMovies - Iteration 2\obj\Debug\net8.0-windows\TheMovies - Iteration 1.csproj.CoreCompileInputs.cache
+D:\UCL\1. projekt 2. semester\TheMovies\TheMovies - Iteration 2\obj\Debug\net8.0-windows\TheMovies - Iteration 1.sourcelink.json
+D:\UCL\1. projekt 2. semester\TheMovies\TheMovies - Iteration 2\obj\Debug\net8.0-windows\TheMovies - Iteration 1.dll
+D:\UCL\1. projekt 2. semester\TheMovies\TheMovies - Iteration 2\obj\Debug\net8.0-windows\refint\TheMovies - Iteration 1.dll
+D:\UCL\1. projekt 2. semester\TheMovies\TheMovies - Iteration 2\obj\Debug\net8.0-windows\TheMovies - Iteration 1.pdb
+D:\UCL\1. projekt 2. semester\TheMovies\TheMovies - Iteration 2\obj\Debug\net8.0-windows\TheMovies - Iteration 1.genruntimeconfig.cache
+D:\UCL\1. projekt 2. semester\TheMovies\TheMovies - Iteration 2\obj\Debug\net8.0-windows\ref\TheMovies - Iteration 1.dll
