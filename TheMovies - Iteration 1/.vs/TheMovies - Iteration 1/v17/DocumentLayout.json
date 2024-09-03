@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "G:\\Program Files\\School Git Files\\TheMovies\\TheMovies - Iteration 1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1BE6C56A-9192-4074-A518-64019AE722BC}|TheMovies - Iteration 1.csproj|g:\\program files\\school git files\\themovies\\themovies - iteration 1\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1BE6C56A-9192-4074-A518-64019AE722BC}|TheMovies - Iteration 1.csproj|solutionrelative:views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1BE6C56A-9192-4074-A518-64019AE722BC}|TheMovies - Iteration 1.csproj|g:\\program files\\school git files\\themovies\\themovies - iteration 1\\models\\filemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1BE6C56A-9192-4074-A518-64019AE722BC}|TheMovies - Iteration 1.csproj|solutionrelative:models\\filemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1BE6C56A-9192-4074-A518-64019AE722BC}|TheMovies - Iteration 1.csproj|g:\\program files\\school git files\\themovies\\themovies - iteration 1\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{1BE6C56A-9192-4074-A518-64019AE722BC}|TheMovies - Iteration 1.csproj|solutionrelative:views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{1BE6C56A-9192-4074-A518-64019AE722BC}|TheMovies - Iteration 1.csproj|g:\\program files\\school git files\\themovies\\themovies - iteration 1\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BE6C56A-9192-4074-A518-64019AE722BC}|TheMovies - Iteration 1.csproj|solutionrelative:views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1BE6C56A-9192-4074-A518-64019AE722BC}|TheMovies - Iteration 1.csproj|g:\\program files\\school git files\\themovies\\themovies - iteration 1\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{1BE6C56A-9192-4074-A518-64019AE722BC}|TheMovies - Iteration 1.csproj|g:\\program files\\school git files\\themovies\\themovies - iteration 1\\models\\moviesrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1BE6C56A-9192-4074-A518-64019AE722BC}|TheMovies - Iteration 1.csproj|solutionrelative:models\\moviesrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1BE6C56A-9192-4074-A518-64019AE722BC}|TheMovies - Iteration 1.csproj|g:\\program files\\school git files\\themovies\\themovies - iteration 1\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1BE6C56A-9192-4074-A518-64019AE722BC}|TheMovies - Iteration 1.csproj|solutionrelative:views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1BE6C56A-9192-4074-A518-64019AE722BC}|TheMovies - Iteration 1.csproj|g:\\program files\\school git files\\themovies\\themovies - iteration 1\\models\\datahandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
@@ -52,12 +52,15 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "OverriddenGroupName": "Models",
               "WhenOpened": "2024-08-16T17:09:20.885Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
             },
             {
               "$type": "Document",
@@ -69,12 +72,11 @@
               "RelativeToolTip": "Models\\Movie.cs",
               "ViewState": "AQIAAAIAAAAAAAAAAADwvyAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-16T18:07:48.808Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-16T18:07:48.808Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "G:\\Program Files\\School Git Files\\TheMovies\\TheMovies - Iteration 1\\Views\\MainWindow.xaml",
               "RelativeDocumentMoniker": "Views\\MainWindow.xaml",
@@ -86,7 +88,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "MoviesRepo.cs",
               "DocumentMoniker": "G:\\Program Files\\School Git Files\\TheMovies\\TheMovies - Iteration 1\\Models\\MoviesRepo.cs",
               "RelativeDocumentMoniker": "Models\\MoviesRepo.cs",
@@ -94,17 +96,16 @@
               "RelativeToolTip": "Models\\MoviesRepo.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-16T17:17:06.624Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-16T17:17:06.624Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "FileManager.cs",
               "DocumentMoniker": "G:\\Program Files\\School Git Files\\TheMovies\\TheMovies - Iteration 1\\Models\\FileManager.cs",
               "RelativeDocumentMoniker": "Models\\FileManager.cs",
               "ToolTip": "Models/FileManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAAAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "OverriddenGroupName": "Models",
               "OverriddenToolTip": "Models/FileManager.cs",
@@ -113,26 +114,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "MainViewModel.cs",
               "DocumentMoniker": "G:\\Program Files\\School Git Files\\TheMovies\\TheMovies - Iteration 1\\ViewModels\\MainViewModel.cs",
               "RelativeDocumentMoniker": "ViewModels\\MainViewModel.cs",
               "ToolTip": "G:\\Program Files\\School Git Files\\TheMovies\\TheMovies - Iteration 1\\ViewModels\\MainViewModel.cs",
               "RelativeToolTip": "ViewModels\\MainViewModel.cs",
-              "ViewState": "AQIAADQAAAAAAAAAAAAqwFAAAAAdAAAA",
+              "ViewState": "AgIAADQAAAAAAAAAAAA6wFAAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-16T17:10:27.956Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "G:\\Program Files\\School Git Files\\TheMovies\\TheMovies - Iteration 1\\Views\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "Views\\MainWindow.xaml.cs",
               "ToolTip": "G:\\Program Files\\School Git Files\\TheMovies\\TheMovies - Iteration 1\\Views\\MainWindow.xaml.cs",
               "RelativeToolTip": "Views\\MainWindow.xaml.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAAUwDUAAAAMAAAA",
+              "ViewState": "AgIAABoAAAAAAAAAAAAywDUAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "OverriddenGroupName": "Views",
               "WhenOpened": "2024-08-16T17:00:27.657Z",
